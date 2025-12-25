@@ -14,13 +14,13 @@ const Contact: React.FC = () => {
             <h2 className="text-4xl font-bold mb-8 italic">{t.contact.title} <br/><span className="text-[#f59e0b]">{t.contact.subtitle}</span></h2>
             <p className="text-slate-400 text-lg mb-12 leading-relaxed">{t.contact.desc}</p>
             
-            <a href={`mailto:${contactEmail}`} className="flex items-center gap-4 md:gap-6 bg-white/5 border border-white/10 p-6 md:p-8 rounded-3xl hover:border-[#f59e0b]/50 transition-all group shadow-xl overflow-hidden">
+            <a href={`mailto:${contactEmail}`} className="flex items-center gap-4 md:gap-6 bg-white/5 border border-white/10 p-5 md:p-8 rounded-3xl hover:border-[#f59e0b]/50 transition-all group shadow-xl overflow-hidden">
               <div className="bg-[#d97706] p-3 md:p-4 rounded-2xl group-hover:scale-110 transition-transform flex-shrink-0">
                 <span className="text-xl md:text-2xl">📧</span>
               </div>
-              <div className="min-w-0">
-                <p className="text-[10px] text-slate-500 uppercase font-black tracking-[0.2em] mb-1">Email Directo</p>
-                <p className="text-sm md:text-base lg:text-lg font-bold group-hover:text-[#f59e0b] transition-colors truncate">
+              <div className="min-w-0 flex-grow">
+                <p className="text-[9px] text-slate-500 uppercase font-black tracking-[0.2em] mb-1">Email Directo</p>
+                <p className="text-[11px] sm:text-xs md:text-sm lg:text-base font-bold group-hover:text-[#f59e0b] transition-colors truncate">
                   {contactEmail}
                 </p>
               </div>
