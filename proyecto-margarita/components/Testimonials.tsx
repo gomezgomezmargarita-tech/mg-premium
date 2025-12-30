@@ -7,15 +7,13 @@ const Testimonials: React.FC = () => {
   const testimonials = [
     {
       quote: t.testimonials.t1_quote,
-      author: "David L. Miller",
-      position: "Managing Partner",
-      company: "Miller Immigration Law"
+      author: t.testimonials.t1_author,
+      company: t.testimonials.t1_company
     },
     {
       quote: t.testimonials.t2_quote,
-      author: "Sofia Rodriguez",
-      position: "CEO",
-      company: "Elite Med-Spa Florida"
+      author: t.testimonials.t2_author,
+      company: t.testimonials.t2_company
     }
   ];
 
@@ -28,7 +26,7 @@ const Testimonials: React.FC = () => {
                 {testimonials.map((test, i) => (
                     <div key={i} className="relative pl-12 border-l-2 border-amber-500/20">
                         <span className="absolute left-0 top-0 text-6xl text-amber-500/10 -mt-4 -ml-4 font-serif">“</span>
-                        <p className="text-2xl md:text-3xl font-light text-slate-800 italic mb-8 leading-snug">
+                        <p className="text-2xl md:text-3xl font-medium text-slate-800 mb-8 leading-snug tracking-tight">
                             {test.quote}
                         </p>
                         <div className="flex items-center gap-4">
@@ -36,8 +34,8 @@ const Testimonials: React.FC = () => {
                                 {test.author.charAt(0)}
                             </div>
                             <div>
-                                <h4 className="font-bold text-slate-900">{test.author}</h4>
-                                <p className="text-[10px] uppercase tracking-widest text-slate-500">{test.position} | {test.company}</p>
+                                <h4 className="font-bold text-slate-900 leading-none">{test.author}</h4>
+                                <p className="text-[10px] uppercase tracking-widest text-slate-500 mt-1 font-bold">{test.company}</p>
                             </div>
                         </div>
                     </div>
@@ -50,4 +48,3 @@ const Testimonials: React.FC = () => {
 };
 
 export default Testimonials;
-
