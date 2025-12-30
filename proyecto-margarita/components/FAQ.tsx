@@ -24,7 +24,7 @@ const FAQ: React.FC = () => {
   return (
     <section id="faq" className="py-24 bg-[#020617] text-white">
       <div className="container mx-auto px-6 max-w-3xl">
-        <h2 className="text-3xl font-bold mb-16 text-center italic">{t.faq.title} <span className="text-[#f59e0b]">{t.faq.subtitle}</span></h2>
+        <h2 className="text-3xl md:text-4xl font-extrabold mb-16 text-center uppercase tracking-tight">{t.faq.title} <span className="text-[#f59e0b]">{t.faq.subtitle}</span></h2>
         
         <div className="space-y-4">
           {faqs.map((faq, i) => (
@@ -33,11 +33,11 @@ const FAQ: React.FC = () => {
                 onClick={() => setOpenIndex(openIndex === i ? null : i)}
                 className="w-full text-left py-4 flex justify-between items-center group"
               >
-                <span className={`text-lg transition-colors ${openIndex === i ? 'text-[#f59e0b]' : 'text-white group-hover:text-amber-200'}`}>{faq.question}</span>
-                <span className="text-[#f59e0b]">{openIndex === i ? '−' : '+'}</span>
+                <span className={`text-lg font-semibold transition-colors ${openIndex === i ? 'text-[#f59e0b]' : 'text-white group-hover:text-amber-200'}`}>{faq.question}</span>
+                <span className="text-[#f59e0b] text-2xl">{openIndex === i ? '−' : '+'}</span>
               </button>
               {openIndex === i && (
-                <div className="pb-4 text-slate-400 font-light leading-relaxed animate-fadeIn">
+                <div className="pb-4 text-slate-400 font-normal leading-relaxed animate-fadeIn">
                   {faq.answer}
                 </div>
               )}
