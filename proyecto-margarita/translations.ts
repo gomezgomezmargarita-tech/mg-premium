@@ -2,15 +2,16 @@
 export const translations = {
   es: {
     config: {
-      officialPhotoUrl: "https://www.dropbox.com/scl/fi/w6jwc2n6u8b8c6e7vxbuh/foto-cv-profesional-4-5-1.png?rlkey=7l1k34xm291vh52621b3ja4ub&st=kqxwgw2u&raw=1" 
+      officialPhotoUrl: "https://www.dropbox.com/scl/fi/w6jwc2n6u8b8c6e7vxbuh/foto-cv-profesional-4-5-1.png?rlkey=7l1k34xm291vh52621b3ja4ub&st=kqxwgw2u&raw=1",
+      email: "gomezgomezmargarita@gmail.com"
     },
     nav: { experience: "Experiencia", services: "Servicios", faq: "FAQ", contact: "Contacto Directo" },
     hero: {
-      tag: "High-Ticket Legal Sales Ops",
-      title_part1: "Margarita G.",
-      title_part2: "Intake Elite.",
-      desc: "Transformo bases de datos inactivas en contratos firmados. Especialista bilingüe en High-Ticket Intake para firmas de Inmigración en EE.UU.",
-      cta: "Escalar mi Firma Ahora",
+      tag: "High-Ticket Sales Ops Specialist",
+      title_part1: "Margarita",
+      title_part2: "Gomez.",
+      desc: "Transformo bases de datos inactivas en contratos firmados. Especialista bilingüe en High-Ticket Intake para firmas de abogados y empresas de alto crecimiento en EE.UU.",
+      cta: "Escalar mi Operación Ahora",
       metric: "Tasa de Cierre Comprobada",
       upload_photo: "Actualizar Foto (Admin)",
       change_photo: "Cambiar Foto Oficial",
@@ -41,6 +42,7 @@ export const translations = {
       title: "Operaciones y",
       subtitle: "Cierre",
       desc: "Soluciones de alto rendimiento para industrias donde cada lead cuenta.",
+      roi_tag: "Máximo ROI",
       s1_title: "High-Ticket Sales Ops",
       s1_item1: "Gestión de leads desde el primer contacto hasta el contrato firmado.",
       s1_item2: "Especialista en contratos de $2k a $18k USD.",
@@ -64,14 +66,18 @@ export const translations = {
       item2_t: "High-Ticket Closer",
       item2_d: "Manejo de contratos de hasta $18k USD sin miedo al precio.",
       item3_t: "Bilingüe Nativa",
-      item3_d: "Dominio cultural total. Transformo la jerga legal en confianza para el mercado hispano.",
+      item3_d: "Dominio cultural total. Transformo la jerga técnica en confianza para el mercado hispano.",
       item4_t: "Cero Lead Leakage",
       item4_d: "Dominio avanzado de Salesforce y HubSpot. Seguimiento profesional garantizado."
     },
     testimonials: {
       tag: "Resultados Comprobados",
-      t1_quote: "Margarita transformó nuestro intake. Pasamos de perder el 60% de los leads a una tasa de cierre del 85% en casos de inmigración.",
-      t2_quote: "La campaña de reactivación se pagó sola en 48 horas. Recuperó $25k en leads que dábamos por muertos."
+      t1_quote: "Margarita transformó nuestro intake. Pasamos de perder el 60% de los leads a una tasa de cierre del 85% en casos complejos.",
+      t1_author: "Managing Partner",
+      t1_company: "Firma de Inmigración (Texas)",
+      t2_quote: "La campaña de reactivación se pagó sola en 48 horas. Recuperó $25k en leads que dábamos por muertos.",
+      t2_author: "CEO",
+      t2_company: "Grupo Premium Med-Spa (Florida)"
     },
     faq: {
       title: "Preguntas",
@@ -87,25 +93,27 @@ export const translations = {
       title: "¿Listo para maximizar",
       subtitle: "tus ingresos?",
       desc: "Transformo tu base de datos en contratos firmados hoy mismo. Cupos limitados por mes.",
+      direct_email: "Email Directo",
       form_title: "Agendar Consulta Estratégica",
-      form_firm: "Nombre de la Firma",
+      form_firm: "Nombre de la Empresa / Firma",
       form_vol: "Volumen mensual de leads (aprox)",
-      form_area: "¿En qué área legal se especializan?",
+      form_area: "¿Industria o Tipo de Servicio?",
       form_btn: "Enviar Solicitud de Intake",
       success: "Solicitud enviada con éxito. Margarita te contactará a la brevedad."
     }
   },
   en: {
     config: {
-      officialPhotoUrl: "https://www.dropbox.com/scl/fi/w6jwc2n6u8b8c6e7vxbuh/foto-cv-profesional-4-5-1.png?rlkey=7l1k34xm291vh52621b3ja4ub&st=kqxwgw2u&raw=1"
+      officialPhotoUrl: "https://www.dropbox.com/scl/fi/w6jwc2n6u8b8c6e7vxbuh/foto-cv-profesional-4-5-1.png?rlkey=7l1k34xm291vh52621b3ja4ub&st=kqxwgw2u&raw=1",
+      email: "gomezgomezmargarita@gmail.com"
     },
     nav: { experience: "Experience", services: "Services", faq: "FAQ", contact: "Direct Contact" },
     hero: {
-      tag: "High-Ticket Legal Sales Ops",
-      title_part1: "Margarita G.",
-      title_part2: "Elite Intake.",
-      desc: "Transforming inactive databases into signed retainers. Bilingual specialist in High-Ticket Intake for US-based Immigration Law Firms.",
-      cta: "Scale My Firm Now",
+      tag: "High-Ticket Sales Ops Specialist",
+      title_part1: "Margarita",
+      title_part2: "Gomez.",
+      desc: "Transforming inactive databases into signed retainers. Bilingual specialist in High-Ticket Intake for US-based Law Firms & High-Growth Companies.",
+      cta: "Scale My Operation Now",
       metric: "Proven Closing Rate",
       upload_photo: "Upload Photo (Admin)",
       change_photo: "Change Official Photo",
@@ -136,6 +144,7 @@ export const translations = {
       title: "Ops &",
       subtitle: "Closures",
       desc: "High-performance solutions for industries where every lead matters.",
+      roi_tag: "Maximum ROI",
       s1_title: "High-Ticket Sales Ops",
       s1_item1: "Full lead management from first contact to signed contract.",
       s1_item2: "Specializing in $2k to $18k USD retainers.",
@@ -159,14 +168,18 @@ export const translations = {
       item2_t: "High-Ticket Closer",
       item2_d: "Handling retainers up to $18k USD with confidence and authority.",
       item3_t: "Native Bilingual",
-      item3_d: "Total cultural mastery. Translating legal jargon into trust for the Hispanic market.",
+      item3_d: "Total cultural mastery. Translating technical jargon into trust for the Hispanic market.",
       item4_t: "Zero Lead Leakage",
       item4_d: "Advanced Salesforce & HubSpot mastery. Guaranteed professional follow-up."
     },
     testimonials: {
       tag: "Proven Results",
-      t1_quote: "Margarita transformed our intake. We went from losing 60% of leads to an 85% closing rate in immigration cases.",
-      t2_quote: "The reactivation campaign paid for itself in 48 hours. It recovered $25k in leads we thought were dead."
+      t1_quote: "Margarita transformed our intake. We went from losing 60% of leads to an 85% closing rate in complex cases.",
+      t1_author: "Managing Partner",
+      t1_company: "High-Volume Immigration Firm (Texas)",
+      t2_quote: "The reactivation campaign paid for itself in 48 hours. It recovered $25k in leads we thought were dead.",
+      t2_author: "CEO",
+      t2_company: "Premium Med-Spa Group (Florida)"
     },
     faq: {
       title: "Frequently Asked",
@@ -182,11 +195,12 @@ export const translations = {
       title: "Ready to maximize",
       subtitle: "your revenue?",
       desc: "Transform your database into signed retainers today. Limited spots available per month.",
-      form_title: "Schedule Strategic Consultation",
-      form_firm: "Firm Name",
+      direct_email: "Direct Email",
+      form_title: "Book Strategic Consultation",
+      form_firm: "Company Name",
       form_vol: "Monthly Lead Volume (approx)",
-      form_area: "Legal practice area?",
-      form_btn: "Send Intake Request",
+      form_area: "Industry / Service Type",
+      form_btn: "Submit Request",
       success: "Request sent successfully. Margarita will contact you shortly."
     }
   }
